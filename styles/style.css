@@ -304,4 +304,30 @@ gap: 186px;
   background-color: #d14d68;
 }
 
+/* Footer section related style */
+#footer-bg{
+    padding: 128px;
+    background-color: rgba(17, 16, 16, 1);
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+    color: var(--defult-color );
+}
+.bg-pink{
+    color: var(--primary-btn-color);
+}
+.footer-content p{
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 30px;
+    color: var(--defult-color);
 
+}
+.copy-p{
+    color: rgba(255, 255, 255, 0.4);
+}
