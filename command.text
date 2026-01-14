@@ -1,7 +1,26 @@
-echo "# Flower-shop" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/mehidealways/Flower-shop.git
-git push -u origin main
+<div class=" new-deal featured-heading container">
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+ <section id="subscribe">
+        <div class="newslater featured-heading container">
+            <h2>Get The Latest Deals</h2>
+            <p>$30 coupon for first shopping</p>
+            <input class="input-email" type="text" placeholder="Enter Your Email">
+            <input type="submit" value="Subscribe">
+            
+        </div>
+     </section>
+
+
+
+

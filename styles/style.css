@@ -242,4 +242,66 @@ gap: 186px;
     
 }
 
+/* Container with background image */
+.newsletter-container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 50px auto;
+  padding: 80px 20px;
+  border-radius: 10px;
+  background-image: url('../Flower-Asset/Rectangle\ 9.png'); /* Replace with your image link */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+
+/* Typography */
+.newsletter-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.newsletter-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Form Layout */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Input Styling */
+.subscribe-form input {
+  flex: 1;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Button Styling */
+.subscribe-form button {
+  background-color: var(--primary-btn-color); /* Matches the pinkish tone in your image */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #d14d68;
+}
+
 
