@@ -230,3 +230,16 @@ gap: 186px;
     color: var(--pragraph-color);
 }
  
+/* Social section related style */
+#social{
+    margin-bottom: 128px;
+}
+.social-image{
+    gap: 24px;
+}
+.card-img img{
+    width: 100%;
+    
+}
+
+
