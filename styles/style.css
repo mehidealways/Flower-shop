@@ -204,5 +204,29 @@ font-size: 1rem;
 color: var(--pragraph-color);
 }
 
-    /*  */
-    
+    /* Hot Deal Section Related Style */
+#offer{
+    padding: 100px 0 100px 0;
+    margin-bottom: 128px;
+background-color: var(--hero-body-bg-color);
+}
+.offer-content{
+align-items: center;
+text-align: center;
+gap: 186px;
+}
+.offer-title h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: var(--primary-color);
+}
+.c-pink{
+    color: var(--primary-btn-color);
+}
+.offer-title p {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    color: var(--pragraph-color);
+}
+ 
