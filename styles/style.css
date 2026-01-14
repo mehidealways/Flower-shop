@@ -5,6 +5,7 @@
 }
 /* Css Variable */
 :root{
+    --service-bg-color:rgba(39, 39, 39, 0.05);
     --defult-color:#ffffff;
     --hero-bg-color:rgba(228, 84, 115, 0.1);
     --hero-body-bg-color:rgba(229, 84, 115, 0.05);
@@ -75,12 +76,19 @@ box-shadow: 0 4px 8px #dddddd37;
     font-weight: 600;
     
 }
+.list-item{
+    justify-content: center;
+}
 .list-item li{
     list-style: none;
 }
 .list-item a {
     text-decoration: none;
     color: var(--primary-color);
+}
+.list-item a:hover{
+    transition: 0.5s;
+    color: var(--primary-btn-color);
 }
 /* Hero Body related style */
 #banner{
@@ -160,7 +168,7 @@ box-shadow: 0 4px 8px #dddddd37;
 
 .featured-card .f-btn{
     /* margin-top: 50px; */
-    margin: 50px 0 30px 0;
+    margin: 50px 0 0 0;
 }
 .f-btn{
     background-color: transparent;
@@ -171,4 +179,30 @@ box-shadow: 0 4px 8px #dddddd37;
     background-color: var(--primary-btn-color);
     color: var(--defult-color);
 }
+
+/* Service Section related style */
+
+.service-content{
+    padding: 80px;
+    background-color: var(--service-bg-color);
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+#service{
+    margin: 128px 0 128px 0;
+}
+.service-box{
+    gap: 100px;
+    text-align: center;
+}
+.service-card img{
+margin-bottom: 24px;
+}
+.service-card p{
+    font-weight: 600;
+font-size: 1rem;
+color: var(--pragraph-color);
+}
+
+    /*  */
     
