@@ -162,5 +162,13 @@ box-shadow: 0 4px 8px #dddddd37;
     /* margin-top: 50px; */
     margin: 50px 0 30px 0;
 }
+.f-btn{
+    background-color: transparent;
+    border: 2px solid var(--primary-btn-color);
+    color: var(--primary-color);
+}
+.f-btn:hover{
+    background-color: var(--primary-btn-color);
+    color: var(--defult-color);
+}
     
-
